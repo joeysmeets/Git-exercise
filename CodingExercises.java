@@ -22,6 +22,17 @@ public class CodingExercises {
 		*/
 
 		public int blackjack(int a, int b) {
-  
+			int temp = 0;
+			int temp2 = 0;
+			if (a <= 21) {
+				temp = a;
+			}
+			if (b <= 21) {
+				temp2 = b;
+			}
+			if (temp > temp2) {
+				return temp;
+			}
+			return temp2;
 		}
 }
